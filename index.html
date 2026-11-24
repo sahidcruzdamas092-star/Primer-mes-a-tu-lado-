@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Stephani ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background"></div>
+    <canvas id="stars"></canvas>
+
+    <!-- PORTADA CENTRADA -->
+    <section id="inicio">
+        <div class="inicio-box">
+            <h1>Feliz primer mes,<br>amor mío ❤️</h1>
+            <p>
+                Para la niña que hace<br>
+                más bonito mi universo.
+            </p>
+            <button onclick="abrirUniverso()">
+                Toca aquí para descubrirlo 💗
+            </button>
+        </div>
+    </section>
+
+    <!-- GALAXIA 3D -->
+    <section id="universo">
+        <h2>Mi niña, eres mi universo ❤️</h2>
+
+        <div id="galaxy-container" title="Arrastra para girar · Pellizca o usa la rueda para acercar/alejar"></div>
+    </section>
+
+    <!-- BOTÓN DE CARTA -->
+    <button class="letter-button" onclick="abrirCarta()" aria-label="Abrir carta">
+        💌
+    </button>
+
+<!-- CARTA -->
+    <section id="carta">
+        <div class="paper">
+            <h2>Para mi niña, Stephani ❤️</h2>
+
+            <p>Mi niña hermosa:</p>
+
+            <p>
+            Hoy cumplimos un mes y me hace muchísima felicidad poder celebrar esto contigo.
+            Me duele un poquito no estar cerca de ti hoy por la universidad,
+            porque de verdad cómo me encantaría pasar este día a tu lado, abrazarte
+            y disfrutarlo contigo.
+            </p>
+
+            <p>
+            Te amo más que a nada y quiero que sepas que siempre voy a estar ahí,
+            a tu lado, acompañándote y queriéndote. Este es solo un pequeño
+            detalle que quise hacerte con todo mi corazón; espero que te guste y que
+            te alegre el día, porque pronto voy a estar ahí contigo para compensarte
+            como te mereces.
+            </p>
+
+            <p>
+            Hoy que es un mes, todavía me acuerdo de los nervios que sentía por lo que
+            podría pasar. Aunque tú me dijeras que ya sabías la respuesta, a mí el
+            nerviosismo no se me quitaba ni un tantito.
+            </p>
+
+            <p>
+            Y cuando me dijiste que sí, la verdad es que ni siquiera sé cómo expresar
+            toda la felicidad que sentí en ese momento. A veces solo de pensarlo ahora,
+            de saber que tengo a una mujer como tú —la mujer que amo—, me cuesta
+            creerlo y hasta siento que no me la creo del todo, porque no sé mucho de
+            estas cosas, solo sé que me haces inmensamente feliz.
+            </p>
+
+            <p>
+            Gracias por este primer mes, mi amor. Ojalá esto te saque una sonrisa hoy y siempre.
+            </p>
+
+            <div class="signature">
+                Con todo mi amor,<br>
+                Tu Novio El Loquito ❤️
+            </div>
+
+            <button class="close" onclick="cerrarCarta()">
+                Cerrar carta
+            </button>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
